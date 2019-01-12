@@ -1,0 +1,37 @@
+{
+  "name": "prova-ubots",
+  "version": "1.0.0",
+  "description": "prova ubots",
+  "main": "index.js",
+  "scripts": {
+    "babel-node": "babel-node",
+    "dev": "nodemon --exec npm run babel-node -- ./src/index.js",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/besilva/prova-ubots.git"
+  },
+  "author": "besilva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/besilva/prova-ubots/issues"
+  },
+  "homepage": "https://github.com/besilva/prova-ubots#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "express-boom": "^2.0.0",
+    "morgan": "^1.9.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "nodemon": "^1.18.5"
+  }
+}
